@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4c4c4c</color>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--主界面颜色-->
+    <color name="main_avtivity_Font">#00ff00</color>
+    <color name="main_activity_background">#000000</color>
+    <color name="spinner_popup_background">#007fff</color>
+    <!--倒计时颜色-->
+    <color name="down_time_font">#ffffff</color>
+    <color name="down_time_background">#42426f</color>
+    <color name="window">#80858175</color>
+
+
+    <color name="bright_sun">#fcfcb7</color>
+    <color name="blue_sky">#1e7ac7</color>
+    <color name="sunset_sky">#ec8100</color>
+    <color name="night_sky">#05192e</color>
+    <color name="sea">#224869</color>
+
+
+    <color name="proper">#350380</color>
+    <color name="green">#04930e</color>
+
+
+    <color name="pineGreen">#00aaa3</color>
+    <color name="violet">#8783bd</color>
+    <color name="brown">#d28d5d</color>
+    <color name="text">#d6d4c8</color>
+    <color name="lineBreak">#3a3e4f</color>
+    <color name="blue">#0d93cd</color>
+    <color name="red">#dc3a3b</color>
+    <color name="yellow">#edfb91</color>
+
+</resources>

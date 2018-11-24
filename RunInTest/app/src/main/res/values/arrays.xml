@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="run_in_test_time">
+        <item>0.5h</item>
+        <item>1h</item>
+        <item>4h</item>
+        <item>8h</item>
+        <item>12h</item>
+        <item>24h</item>
+        <item>36h</item>
+        <item>48h</item>
+    </string-array>
+</resources>

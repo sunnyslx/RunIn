@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="checkbox_margin_top">10dp</dimen>
+    <dimen name="checkbox_padding_left">7dp</dimen>
+    <dimen name="item_down_time">30dp</dimen>
+    <!--主界面横屏-->
+    <dimen name="checkbox_margin_top_land">3dp</dimen>
+
+    <!--wifi item-->
+    <dimen name="margin_left">10dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_bottom">7dp</dimen>
+    <dimen name="margin_right">7dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

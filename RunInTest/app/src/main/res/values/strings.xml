@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">RunIn</string>
+    <string name="runin_test">RunInTest</string>
+    <string name="read">Read:</string>
+    <string name="write">Write:</string>
+    <string name="oriprograss">N/A</string>
+
+    <!--Video-->
+    <string name="video_time">00:00/03:37</string>
+
+    <!--CheckBox Text-->
+    <string name="video_checkbox">VIDEO</string>
+    <string name="two_d_checkbox">2D</string>
+    <string name="three_d_checkbox">3D</string>
+    <string name="cpu_checkbox">CPU</string>
+    <string name="emmc_checkbox">EMMC</string>
+    <string name="ddr_checkbox">DDR</string>
+    <string name="lcd_checkbox">LCD</string>
+    <string name="wifi_checkbox">WIFI</string>
+    <string name="bt_checkbox">BT</string>
+    <string name="battery_checkbox">Battery</string>
+    <string name="select_all_checkbox">ALL</string>
+
+    <!--TextView Text-->
+    <string name="down_time">REMAIN:</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+
+    <!--EMMC Test-->
+    <string name="emmc_name">EMMC Test</string>
+    <string name="wait_check">正在校验中，请耐心等待...</string>
+
+    <!--cpu-->
+    <string name="cpu_test_title">CPU</string>
+    <string name="ddr_test_title">DDR</string>
+    <string name="emmc_test_title">EMMC</string>
+    <!--bt-->
+    <string name="bt_test_title">Bluetooth</string>
+    <string name="bt_state">BT_STATUS:</string>
+    <string name="bt_mac">BT_MAC:</string>
+    <!--wifi-->
+    <string name="wifi_test">Wi-Fi</string>
+    <string name="wifi_state">Wifi_STATUS:</string>
+    <string name="wifi_mac">Wifi_MAC:</string>
+
+    <!--ddr-->
+    <string name="ddr_name">DDR Test</string>
+    <string name="total_memory">DDR Total Memory:</string>
+    <string name="available_memory">Available Memory:</string>
+    <string name="ddr_usage">DDR Usage:</string>
+
+    <!--cpu-->
+    <string name="cpu_tem">CPU  Temperature</string>
+    <string name="cpu_usage">CPU         Usage</string>
+    <string name="cpu_maxfrq">CPU Max Frequency</string>
+    <string name="cpu_minfrq">CPU  Min Frequency</string>
+    <string name="cpu_nowfrq">CPU Now Frequency</string>
+    <string name="cpu_minusage">CPU   Min  Usage</string>
+    <string name="cpu_maxusage">CPU  Max  Usage</string>
+    <string name="cpu_avgusage">CPU  Average Usage</string>
+
+    <!--result_run_in-->
+    <string name="re_pass">pass</string>
+    <string name="re_result">test item result:</string>
+    <string name="re_server">server result:</string>
+
+    <!--wifi Connection-->
+    <string name="wifi_information">Wifi information:</string>
+    <string name="wifi_SSID">SSID: </string>
+    <string name="wifi_router">Router MAC: </string>
+
+    <!--upload-->
+    <string name="up_state">Status: </string>
+    <string name="up_rate">Upload Rate: </string>
+    <string name="down_rate">Download Rate: </string>
+    <string name="up_compare">Compare: </string>
+    <string name="local_files">Local files:</string>
+    <string name="upload">upload</string>
+    <string name="server_files">Server files:</string>
+    <string name="up_update">update</string>
+</resources>

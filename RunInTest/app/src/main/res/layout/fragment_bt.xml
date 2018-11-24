@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sky"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/bt_test"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/checkbox_margin_top"
+        android:gravity="center"
+        android:text="@string/bt_test_title"
+        android:textAllCaps="false"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/bt_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/bt_test"
+        android:text="@string/bt_state"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/show_bt_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_test"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_toRightOf="@id/bt_state"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/bt_mac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_state"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/bt_mac"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/show_bt_mac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_state"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_toRightOf="@id/bt_mac"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/countdown_bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/item_down_time"
+        android:textSize="25sp"/>
+</RelativeLayout>

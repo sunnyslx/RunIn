@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        style="?android:listSeparatorTextViewStyle"
+        android:gravity="center"
+        android:text="@string/cpu_test_title"
+        android:textAlignment="center"
+        android:textSize="35sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/tv_cputemplabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cpu_tem"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/colon_1"
+            android:layout_toRightOf="@id/tv_cputemplabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text=":"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_cpuTemp"
+            android:layout_toRightOf="@id/colon_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/cpuMinFreq"
+            android:layout_below="@id/tv_cputemplabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cpu_minfrq"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/colon_2"
+            android:layout_below="@id/tv_cputemplabel"
+            android:layout_alignLeft="@id/colon_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_minFreq"
+            android:layout_below="@id/tv_cputemplabel"
+            android:layout_alignLeft="@id/tv_cpuTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/cpuMaxFreq"
+            android:layout_below="@id/cpuMinFreq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cpu_maxfrq"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/colon_3"
+            android:layout_below="@id/cpuMinFreq"
+            android:layout_alignLeft="@id/colon_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_maxFreq"
+            android:layout_below="@id/cpuMinFreq"
+            android:layout_alignLeft="@id/tv_cpuTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/cpuNowFreq"
+            android:layout_below="@id/cpuMaxFreq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cpu_nowfrq"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/colon_4"
+            android:layout_below="@id/cpuMaxFreq"
+            android:layout_alignLeft="@id/colon_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_nowFreq"
+            android:layout_below="@id/cpuMaxFreq"
+            android:layout_alignLeft="@id/tv_cpuTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_cpusagelable"
+            android:layout_below="@id/cpuNowFreq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cpu_usage"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/colon_5"
+            android:layout_below="@id/cpuNowFreq"
+            android:layout_alignLeft="@id/colon_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_cpusage"
+            android:layout_below="@id/cpuNowFreq"
+            android:layout_alignLeft="@id/tv_cpuTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_minUsage"
+            android:layout_below="@id/tv_cpusagelable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cpu_minusage"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/colon_6"
+            android:layout_below="@id/tv_cpusagelable"
+            android:layout_alignLeft="@id/colon_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/cpu_Minusage"
+            android:layout_below="@id/tv_cpusagelable"
+            android:layout_alignLeft="@id/tv_cpuTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_maxUsage"
+            android:layout_below="@id/tv_minUsage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cpu_maxusage"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/colon_7"
+            android:layout_below="@id/tv_minUsage"
+            android:layout_alignLeft="@id/colon_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/cpu_Maxusage"
+            android:layout_below="@id/tv_minUsage"
+            android:layout_alignLeft="@id/tv_cpuTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_Avgusage"
+            android:layout_below="@id/tv_maxUsage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cpu_avgusage"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/colon_8"
+            android:layout_below="@id/tv_maxUsage"
+            android:layout_alignLeft="@id/colon_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/brown"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/cpu_Avgusage"
+            android:layout_below="@id/tv_maxUsage"
+            android:layout_alignLeft="@id/tv_cpuTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/brown"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</LinearLayout>
+
+

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/DDR_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ddr_name"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:layout_marginTop="30dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/re1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/DDR_test"
+        >
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_memory"
+                android:textColor="@color/brown"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/all_ddr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text=""
+                android:textColor="@color/brown"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear1"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_available"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/available_memory"
+                android:textColor="@color/brown"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/used_ddr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text=""
+                android:textColor="@color/brown"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear2"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:id="@+id/tv_usage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ddr_usage"
+                android:textColor="@color/brown"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/usage_ddr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:text=""
+                android:textColor="@color/brown"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ddrWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/re1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/write"
+            android:textColor="@color/violet"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_writeddr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oriprograss"
+            android:textColor="@color/blue"
+            android:textSize="30sp"
+            android:layout_marginLeft="30sp"
+            />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/write_progress"
+        android:layout_below="@id/ddrWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:id="@+id/ddrRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/write_progress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/read"
+            android:textColor="@color/violet"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_readddr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oriprograss"
+            android:textColor="@color/blue"
+            android:textSize="30sp"
+            android:layout_marginLeft="30sp"
+            />
+    </LinearLayout>
+    <SeekBar
+        android:layout_marginTop="20dp"
+        android:id="@+id/read_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ddrRead"
+        />
+</RelativeLayout>

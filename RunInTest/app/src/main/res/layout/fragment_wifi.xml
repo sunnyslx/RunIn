@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/wifi_test"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/checkbox_margin_top"
+        android:text="@string/wifi_test"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        style="?android:listSeparatorTextViewStyle"/>
+
+    <TextView
+        android:id="@+id/wifi_state"
+        android:layout_below="@+id/wifi_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginStart="@dimen/margin_left"
+        android:text="@string/wifi_state"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/show_wifi_state"
+        android:layout_below="@+id/wifi_test"
+        android:layout_toEndOf="@+id/wifi_state"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/wifi_mac"
+        android:layout_below="@+id/wifi_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_left"
+        android:layout_marginStart="@dimen/margin_left"
+        android:text="@string/wifi_mac"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/show_wifi_mac"
+        android:layout_below="@+id/wifi_state"
+        android:layout_toEndOf="@+id/wifi_mac"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_below="@+id/wifi_mac"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/show_wifi_timer"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/item_down_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+</RelativeLayout>
